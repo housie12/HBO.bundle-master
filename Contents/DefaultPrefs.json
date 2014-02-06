@@ -1,0 +1,29 @@
+[
+    {
+        "id": "username",
+        "type": "text",
+        "label": "Username",
+        "default": ""
+    },
+    {
+        "id": "password",
+        "type": "text",
+        "label": "Password",
+        "default": "",
+        "option": "hidden",
+        "secure": "true",
+    },
+    {
+        "id": "zipcode",
+        "type": "text",
+        "label": "ZIP Code (Only Charter)",
+        "default": "",
+    },
+    {
+        "id": "provider",
+        "type": "enum",
+        "label": "Provider",
+        "values": ["Astound","AT&T U-verse","Atlantic Broadband","ATMC","BendBroadband","Blue Ridge Communications","Bright House Networks","Buckeye CableSystem","Burlington Telecom","Cable ONE","CenturyLink Prism","Charter","Cincinnati Bell Fioptics","Comcast XFINITY","Cox","DIRECTV","DIRECTV PUERTO RICO","DISH","Easton Cable Velocity","EPB Fiber Optics","GCI","Grande Communications","GVTC Communications","Hawaiian Telcom","HBC","Home Telecom","Home Town Cable Plus","Hotwire Communications","HTC Digital Cable","Insight Communications","JEA","Long Lines","LUS Fiber","Massillon Cable/Clear Picture","Mediacom","MetroCast","MI-Connection","Midcontinent Communications","Nex-Tech","OpenBand Multimedia","Optimum","RCN","Service Electric Broadband","Service Electric Cable TV","Service Electric Cablevision","Suddenlink","Time Warner Cable","Verizon FiOS","Wave Broadband","WOW!"],
+        "default": "Astound",
+    }
+]
